@@ -1,0 +1,16 @@
+.btnLogout{
+    font-size: var(--fontsize);
+    width: 5em;
+    padding: var(--padding);
+    background-color: rgb(69,69,211);
+    color: white;
+    border: solid 1px rgb(69,69,211);
+    border-radius: .1em;
+}
+
+.logout-area{
+    grid-area: logout-area;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
